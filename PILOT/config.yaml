@@ -1,0 +1,46 @@
+General:
+  system: "{IMX_SYSTEM}"
+  app: "{IMX_APP}"
+  app_type: "{IMX_APP_TYPE}"
+  section:  TC30 #單位 ex: MK22
+  
+Log:
+  version: 1
+  formatters:
+    format1:
+      format: "[%(asctime)s.%(msecs)03d] {%(system)s %(app)s %(filename)s: %(funcName)s :%(lineno)d} %(levelname)s %(tid)s - %(message)s"
+      datefmt: '%Y-%m-%d %H:%M:%S'
+
+  handlers:
+    console:
+      class: logging.StreamHandler
+      formatter: format1
+      stream: ext://sys.stdout
+
+    file:
+      class: logging.handlers.RotatingFileHandler
+      formatter: format1
+      filename: log/app.log
+      maxBytes: 10000000
+      backupCount: 5
+  
+  root:
+    handlers: [console, file]
+    level: INFO
+
+Database:
+    TRAINDB:
+        type: oracle
+        host: 10.18.20.35
+        port: 1531
+        username: "{IMX_TRAINDB_ID}"
+        password: "{IMX_TRAINDB_PWD}"
+        service: TRAINDB
+    edwml2:
+        type: trino
+        host: edwml2
+        port: 18081
+        catalog: udpdb
+        username: "{IMX_EDWML2_ID}"
+        password: "{IMX_EDWML2_PWD}"
+

@@ -1,0 +1,276 @@
+[2026-02-12 10:51:02.968] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO 540d0aaa-0c6a-46b7-81dc-fe27e5f29f1a - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 10:51:07.741] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 10:51:13.396] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 10:51:17.774] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 10:53:51.865] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 10:53:51.958] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 10:53:52.179] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :332} INFO NA - NA post model inference api
+[2026-02-12 10:55:08.642] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 10:55:08.730] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 10:55:08.896] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :429} INFO NA - NA post model inference api
+[2026-02-12 11:11:33.808] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO 2e715575-6bc9-4f0f-a0ef-20a582f75e78 - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 11:28:07.889] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 11:28:15.477] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 11:28:15.580] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :429} INFO NA - NA post model inference api
+[2026-02-12 11:29:23.438] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 11:29:23.540] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :429} INFO NA - NA post model inference api
+[2026-02-12 11:29:44.857] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 11:29:44.929] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :429} INFO NA - NA post model inference api
+[2026-02-12 11:33:20.820] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 11:33:20.900] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :429} INFO NA - NA post model inference api
+[2026-02-12 11:40:56.259] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 11:40:56.442] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :429} INFO NA - NA post model inference api
+[2026-02-12 11:40:58.504] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :457} ERROR NA - NA FileName: C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\requests\adapters.py, lineNum: 677, Fun: send, reason: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/v1/opc_litho_optimize/inference (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000255336011B0>: Failed to establish a new connection: [WinError 10061] 無法連線，因為目標電腦拒絕連線。')), trace:
+ Traceback (most recent call last):
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 無法連線，因為目標電腦拒絕連線。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\urllib3\connectionpool.py", line 716, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\urllib3\connectionpool.py", line 416, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\urllib3\connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\WTLI3\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\WTLI3\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\WTLI3\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\WTLI3\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\Users\WTLI3\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000255336011B0>: Failed to establish a new connection: [WinError 10061] 無法連線，因為目標電腦拒絕連線。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\urllib3\connectionpool.py", line 802, in urlopen
+    retries = retries.increment(
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\urllib3\util\retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/v1/opc_litho_optimize/inference (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000255336011B0>: Failed to establish a new connection: [WinError 10061] 無法連線，因為目標電腦拒絕連線。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\views\apps\tabular_litho_source_optimization.py", line 431, in <module>
+    response = requests.post(
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\venv\lib\site-packages\requests\adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /api/v1/opc_litho_optimize/inference (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000255336011B0>: Failed to establish a new connection: [WinError 10061] 無法連線，因為目標電腦拒絕連線。'))
+
+[2026-02-12 11:41:12.244] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 11:41:12.377] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :429} INFO NA - NA post model inference api
+[2026-02-12 11:42:05.416] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 11:42:05.510] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :429} INFO NA - NA post model inference api
+[2026-02-12 11:43:09.607] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 11:43:09.708] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :429} INFO NA - NA post model inference api
+[2026-02-12 13:38:50.481] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:38:50.572] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:38:50.665] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :431} INFO NA - NA post model inference api
+[2026-02-12 13:38:51.140] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :505} ERROR NA - NA FileName: C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\views\apps\tabular_litho_source_optimization.py, lineNum: 462, Fun: <module>, reason: intensity_function, trace:
+ Traceback (most recent call last):
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\views\apps\tabular_litho_source_optimization.py", line 462, in <module>
+    intensity = result["intensity_function"]
+KeyError: 'intensity_function'
+
+[2026-02-12 13:39:12.040] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:39:12.123] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :431} INFO NA - NA post model inference api
+[2026-02-12 13:39:12.236] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :505} ERROR NA - NA FileName: C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\views\apps\tabular_litho_source_optimization.py, lineNum: 462, Fun: <module>, reason: intensity_function, trace:
+ Traceback (most recent call last):
+  File "C:\Users\WTLI3\Projects\AI_Store\ai_store_frontend\views\apps\tabular_litho_source_optimization.py", line 462, in <module>
+    intensity = result["intensity_function"]
+KeyError: 'intensity_function'
+
+[2026-02-12 13:40:52.714] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:40:52.804] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:40:59.078] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:41:04.544] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:41:04.621] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :431} INFO NA - NA post model inference api
+[2026-02-12 13:41:21.913] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:41:28.125] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:41:28.204] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :431} INFO NA - NA post model inference api
+[2026-02-12 13:42:57.517] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:42:57.609] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:43:03.331] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:43:03.421] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :431} INFO NA - NA post model inference api
+[2026-02-12 13:43:27.866] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:43:27.921] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:43:28.010] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :431} INFO NA - NA post model inference api
+[2026-02-12 13:43:30.981] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:43:34.697] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:43:37.436] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:43:57.325] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:43:57.403] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :431} INFO NA - NA post model inference api
+[2026-02-12 13:44:01.521] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:44:07.424] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:44:09.212] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:44:12.180] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:44:13.807] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:44:59.532] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:44:59.626] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :431} INFO NA - NA post model inference api
+[2026-02-12 13:45:20.102] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:45:20.201] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :431} INFO NA - NA post model inference api
+[2026-02-12 13:47:52.785] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:47:52.840] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:47:52.906] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :428} INFO NA - NA post model inference api
+[2026-02-12 13:48:06.414] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:48:08.634] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:52:08.445] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:52:19.974] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 13:52:21.313] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:54:49.942] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:54:50.065] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:54:55.173] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:54:55.258] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 14:55:16.441] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:55:16.516] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:55:21.166] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:55:21.256] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 14:55:32.134] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:55:32.216] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 14:55:41.148] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:55:41.233] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 14:55:48.917] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:55:48.991] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 14:55:53.322] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:55:53.399] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 14:55:56.254] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:55:56.331] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 14:55:59.465] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:55:59.591] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 14:56:36.719] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:56:36.790] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 14:56:38.933] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:56:39.024] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 14:56:41.872] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:56:41.953] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 14:56:42.859] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:56:42.936] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 14:56:45.126] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:56:45.202] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 14:56:55.668] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:56:55.779] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :525} INFO NA - NA post calculate_metrics api
+[2026-02-12 14:58:29.511] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:58:29.580] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 14:58:29.680] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :525} INFO NA - NA post calculate api
+[2026-02-12 15:02:35.051] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:02:35.145] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:02:35.222] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :525} INFO NA - NA post calculate api
+[2026-02-12 15:02:47.140] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:02:48.565] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:02:48.636] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:03:05.390] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:03:05.484] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:03:09.633] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:03:09.713] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:03:17.525] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:03:17.617] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:03:27.168] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:03:27.268] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:04:06.595] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:04:12.008] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:04:39.472] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:04:42.184] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:04:42.382] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:04:47.661] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:04:49.577] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:04:51.248] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:04:51.454] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :525} INFO NA - NA post calculate api
+[2026-02-12 15:05:12.328] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:05:12.542] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:05:19.540] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:05:19.789] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:05:23.290] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:05:23.504] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:05:27.156] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:05:27.344] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:05:31.338] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:05:31.630] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:05:36.610] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:05:36.793] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:05:41.296] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:05:41.487] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:05:43.912] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:05:44.121] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:05:46.336] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:05:46.508] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:05:48.929] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:05:49.110] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:05:53.157] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:05:53.348] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:08:15.096] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:08:15.188] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:08:15.351] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:10:37.957] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:10:38.158] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:10:58.501] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:10:58.694] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:11:04.426] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:11:04.612] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:11:09.717] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:11:09.912] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:11:13.933] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:11:14.130] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:11:18.088] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:11:19.199] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:11:19.411] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :526} INFO NA - NA post calculate api
+[2026-02-12 15:12:15.512] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:12:27.314] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:12:59.669] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:27:55.446] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:27:55.521] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:28:04.191] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:28:04.344] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:28:16.773] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:28:19.917] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:28:20.009] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :526} INFO NA - NA post calculate api
+[2026-02-12 15:28:33.949] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:28:34.033] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:28:44.208] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:28:44.325] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:28:47.226] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:28:47.300] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:28:54.327] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:28:54.403] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:35:46.128] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:35:46.201] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:35:50.202] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:35:50.281] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:42:11.970] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:42:12.033] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:42:16.389] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:42:16.464] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:42:21.333] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:42:24.825] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:42:24.931] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :526} INFO NA - NA post calculate api
+[2026-02-12 15:42:36.701] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:42:36.778] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:42:57.746] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:42:57.843] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :433} INFO NA - NA post model inference api
+[2026-02-12 15:43:00.879] {TC00-TC30-AI_Store ai_store_frontend config_manager.py: _record_usage_wecpy_log :236} INFO NA - iMX_Core_Python:1.9.2 iMX_Core_Python_Usage
+[2026-02-12 15:43:00.966] {TC00-TC30-AI_Store ai_store_frontend tabular_litho_source_optimization.py: <module> :526} INFO NA - NA post calculate api
